@@ -1,0 +1,105 @@
+	sheet	column_name	fraction_not_filled	description	origin	stage	useful?
+0	trix_content	line	0.0				
+1	trix_content	Case # (DLBCA and Google reference)	0.61				
+2	trix_content	UID	0.01				
+3	trix_content	Date of the Court Orders	0.01				
+4	trix_content	Court	0.01				
+5	trix_content	same court	0.99				
+6	trix_content	Lawsuit Number	0.01				
+7	trix_content	CP?	0.97				
+8	trix_content	Summary of the request/what to produce [internal team rec]	0.43				
+9	trix_content	STQ confirm scope of production	0.03				
+10	trix_content	Deadline	0.2				
+11	trix_content	DLBCA's suggested answer	0.14				
+12	trix_content	Previous Orders and Answers	0.87				
+13	trix_content	Google's proposed answer	0.99				
+14	trix_content	"LIS: 
+Informatin about case"	0.99				
+15	trix_content	"LIS: 
+Policy and content check"	0.99				
+16	trix_content	"LIS: 
+Google Inc answer sent to authority? which one?"	0.99				
+17	trix_content	"LIS:
+Priority"	0.99				
+18	trix_content	"LIS:
+Assignee"	0.99				
+19	trix_content	Status	0.4				
+20	trix_content	Status - writ of mandamus	0.99				
+21	trix_content	Law Firm	0.99				
+22	trix_boletosads	Case # (CQ reference)/thread LIS	0.0				
+23	trix_boletosads	Medium/low priority	0.0				
+24	trix_boletosads	Court/LE	0.0				
+25	trix_boletosads	Lawsuit number 	0.0				
+26	trix_boletosads	Boleto number/target	0.0				
+27	trix_boletosads	Date received	0.0				
+28	trix_boletosads	Date received CQ	0.0				
+29	trix_boletosads	Response is good to go	0.0				
+30	trix_boletosads	Deadeline 	0.0				
+31	trix_boletosads	Response delivered	0.0				
+32	trix_boletosads	Registration data provided (yes/no)	0.0				
+33	trix_boletosads	Follow up	0.14				
+34	trix_writs	Case #	0.0				
+35	trix_writs	UID	0.0				
+36	trix_writs	Date of the Court Orders	0.0				
+37	trix_writs	Kwyjibo Reference #	0.0				
+38	trix_writs	Court	0.0				
+39	trix_writs	Lawsuit Number	0.0				
+40	trix_writs	Legal issue/Summary of the request/Data produced	0.0				
+41	trix_writs	Writ filed by CQ/date 	0.0				
+42	trix_writs	Daily fines	0.0				
+43	trix_writs	Freezing of assets/date	0.11				
+44	trix_writs	deadline to file a writ against the freezing of assets decision	0.67				
+45	trix_writs	Status	0.0				
+46	trix_segmentation	Case #	0.0				
+47	trix_segmentation	Google reference	0.89				
+48	trix_segmentation	UID	0.0				
+49	trix_segmentation	Date of the Court Orders	0.0				
+50	trix_segmentation	Kwyjibo Reference #	0.98				
+51	trix_segmentation	Court	0.0				
+52	trix_segmentation	same court	0.89				
+53	trix_segmentation	Lawsuit Number	0.0				
+54	trix_segmentation	CP?	0.87				
+55	trix_segmentation	Summary of the request/what to produce [internal team rec]	0.02				
+56	trix_segmentation	STQ confirm scope of production	0.02				
+57	trix_segmentation	Deadline	0.0				
+58	trix_segmentation	DLBCA's suggested answer	0.7				
+59	trix_segmentation	Previous Orders and Answers	0.3				
+60	trix_segmentation	Google's proposed answer	1.0				
+61	trix_segmentation	"LIS: 
+Informatin about case"	0.95				
+62	trix_segmentation	"LIS: 
+Policy and content check"	0.97				
+63	trix_segmentation	"LIS: 
+Google Inc answer sent to authority? which one?"	0.95				
+64	trix_segmentation	"LIS:
+Priority"	0.98				
+65	trix_segmentation	"LIS:
+Assignee"	0.98				
+66	trix_segmentation	Status	0.05				
+67	trix_segmentation	Unnamed: 21	0.9				
+68	trix_segmentation	Unnamed: 22	0.9				
+69	controle_de_linhas	Advogado	0.0				
+70	controle_de_linhas	line	0.0				
+71	controle_de_linhas	Extensão	1.0				
+72	controle_de_linhas	Nº Principal do Processo	0.0				
+73	controle_de_linhas	Objeto	0.01				
+74	controle_de_linhas	Observações ref. ao objeto	1.0				
+75	controle_de_linhas	Localização	0.0				
+76	controle_de_linhas	UF	0.0				
+77	controle_de_linhas	Prazo MS	0.0				
+78	controle_de_linhas	Deadline	0.99				
+79	controle_de_linhas	Data	1.0				
+80	controle_de_linhas	Status/Estratégia	0.98				
+81	controle_de_linhas	Solicitações e Considerações (Carina)	1.0				
+82	controle_de_linhas	Peticionar?	1.0				
+83	controle_de_linhas	Data do Protocolo	1.0				
+84	controle_de_linhas	Acompanhamento?	1.0				
+85	oficios_google	Recebimento	0.0				
+86	oficios_google	Assunto	0.0				
+87	oficios_google	Ofício	0.14				
+88	oficios_google	Advogado	0.0				
+89	oficios_google	Info	0.01				
+90	oficios_google	Status	0.03				
+91	oficios_google	line	0.0				
+92	oficios_google	vinculo	0.0				
+93	oficios_google	vinculo_count	0.0				
