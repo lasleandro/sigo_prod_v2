@@ -1,0 +1,9 @@
+_attachments/
+_cluster_data/
+_collect_control/
+_data_output/
+_output_tests/
+_text_bigrams/
+_text_unigrams/
+_w2v_data/
+
