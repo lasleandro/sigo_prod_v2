@@ -4,26 +4,19 @@ import sys
 import logging
 from datetime import datetime
 from datetime import timedelta
-import random
 import numpy as np
 import time
 import schedule
 from sqlalchemy import create_engine
-
 import mysql.connector
 from mysql.connector import Error
 
 
 ## modules
 sys.path.insert(0, './_modules')
-from scanner_module import scanner
-from regex_module import FindEmail, FindNumbersBraket, FindLawsuit
-from general_functions import DateConv, datetag_func
-from Gmail_module import GetAttachments_v2, GetMessage_v2, ListMessagesMatchingQuery, GetBody,\
-                         FDS, PrintMail, GetCredentials, MailData, GetBody_v2
+from Gmail_module import ListMessagesMatchingQuery, FDS
 from logging_module import getlogger
 from db_functions import TheDB
-
 from path_definitions import control_dir, att_dir
 
 
