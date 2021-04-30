@@ -18,7 +18,7 @@ from Gmail_module import ListMessagesMatchingQuery, FDS
 from logging_module import getlogger
 from db_functions import TheDB
 from path_definitions import control_dir, att_dir
-
+from RememberAdvModule import ConsultAdv
 
 
 ## log
@@ -186,13 +186,23 @@ def TheCollector(splitted_mail_list, control_path, attachments_path):
 
 
         ## tests
+        ## Finding some adv associated to the case:
+        logger.info('Trying to find adv associated to the email (RememberAdvModule call)')
 
+        try:
+            df['memoryrobot_users_id'] = \
+            df.apply(lambda x: ConsultAdv(x['case_id'], x['external_ref_number']), axis = 1)
+            logger.info('Adv found!') 
+        except Exception as e:
+            logger.error('Some error ocurred calling RememberAdvModule: {}'.format(e))
+            pass
 
         ## converting time to MySQL format
         df['mail_date_received'] = pd.to_datetime(df['mail_date_received_full'])
         df['mail_hms_received'] = pd.to_datetime(df['mail_date_received_full'])
         df['mail_body'] = df['mail_body'].str.encode('utf-8')
         df['has_attachment'] = df['has_attachment'].astype(int)
+        
 
         if 'mail_date_received_full' in df.columns:
             df = df.drop('mail_date_received_full', axis = 1)
